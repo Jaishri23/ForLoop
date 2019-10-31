@@ -1,0 +1,65 @@
+
+
+
+<html>
+
+ <head>
+
+
+ </head>
+
+<body>
+
+   <ul id="msgs">
+
+   </ul>
+
+    <script>
+    
+    var messages= [
+    {
+        name: "Rajesh",
+        message: "Hello! how are you!",
+        time: new Date()
+    },
+    {
+        name: "Kiran",
+        message: "Hey! how are you!",
+        time: new Date()
+    },
+    {
+        name: "ravi",
+        message: "Wassup! how are you!",
+        time: new Date()
+    },{
+        name: "anil",
+        message: "Hello! how are you!",
+        time: new Date()
+    },
+    {
+        name: "krish",
+        message: "Hello! how are you!",
+        time: new Date()
+    },
+    {
+        name: "krish",
+        message: "Hello! how are you!",
+        time: new Date()
+    }
+];
+
+//var i=0;
+var ul=document.getElementById('msgs');
+for(i=0;i<messages.length;i++){
+    // console.log(messages[i].name);
+    // console.log(messages[i].message);
+    // console.log(messages[i].time);
+    // i++;
+    ul.innerHTML+= "<li>" + messages[i].name +" :" + messages[i].message +"</li>"
+   // i++;
+}
+      
+    </script>
+
+</body>
+</html>
